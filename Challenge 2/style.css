@@ -1,0 +1,29 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+#navbar_prop {
+ 
+}
+.float_left {
+   display: inline-block;
+   padding: 10px;
+   padding-bottom: 0px;   
+   margin-left: -5px;
+}
+
+.tect_navL {
+    border-top: pink solid 2px;
+    border-right:  pink solid 2px;
+}
+.facebook_navL {
+    border-top: blue solid 2px;
+    border-right:  blue solid 2px;
+    /* transform: skew(15deg, 15deg); */
+}
+.cybersecurity_navL {
+    border-top: red solid 2px;
+    border-right:  red solid 2px;
+}
+.uppercase {
+    text-transform: uppercase;
+}
