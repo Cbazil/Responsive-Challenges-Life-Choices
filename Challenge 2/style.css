@@ -1,8 +1,23 @@
+
 body {
     font-family: Helvetica, sans-serif;
+   
+}
+@media only screen and (min-width: 1040px){
+    body{
+        margin: auto 200px;
+    }
+}
+ 
+main {
+     margin: auto 20px; 
+}
+h1 {
+    font-family: "adelle-sans",Helvetica,sans-serif;
+    font-size: 44px;
 }
 #navbar_prop {
- 
+    margin-left: -12px;
 }
 .float_left {
    display: inline-block;
@@ -26,4 +41,17 @@ body {
 }
 .uppercase {
     text-transform: uppercase;
+}
+.about_caption {
+    margin-top: -10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.icon_box {
+     word-spacing: 20px;
+}
+.icon_size {
+    width: 20px;
+    height: 20px;
+   
 }
