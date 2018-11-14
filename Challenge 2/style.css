@@ -3,6 +3,7 @@ body {
     font-family: Helvetica, sans-serif;
    
 }
+/* Some responsive for laptop view 1040px and plus */
 @media only screen and (min-width: 1040px){
     body{
         margin: auto 200px;
@@ -12,10 +13,12 @@ body {
 main {
      margin: auto 20px; 
 }
+
 h1 {
     font-family: "adelle-sans",Helvetica,sans-serif;
     font-size: 44px;
 }
+/* To perfectly attach the nav bar sections  */
 #navbar_prop {
     margin-left: -12px;
 }
@@ -26,6 +29,7 @@ h1 {
    margin-left: -5px;
 }
 
+/* Border of NavBar Property */
 .tect_navL {
     border-top: pink solid 2px;
     border-right:  pink solid 2px;
@@ -33,12 +37,14 @@ h1 {
 .facebook_navL {
     border-top: blue solid 2px;
     border-right:  blue solid 2px;
+
     /* transform: skew(15deg, 15deg); */
 }
 .cybersecurity_navL {
     border-top: red solid 2px;
     border-right:  red solid 2px;
 }
+/* Caps Property */
 .uppercase {
     text-transform: uppercase;
 }
@@ -54,4 +60,46 @@ h1 {
     width: 20px;
     height: 20px;
    
+}
+.grey_color {
+    color: grey;
+}
+.grey_color a {
+    text-decoration: none;
+}
+/* Icon Colors , True facebook and twitter blues but custom silver on share icon */
+#facebook_blue {
+    color: #3b5998;
+}
+#twitter_blue {
+    color: #38A1F3;
+}
+
+#share_silver {
+    color: rgb(148, 145, 145);
+}
+/* Icon Size */
+.fa-size {
+    font-size: 20px;
+}
+/* Same pink from original */
+.pink {
+    color: #e5127d;
+}
+a {
+    text-decoration: none;
+}
+.social_sizes {
+    font-size: 12px;
+}
+
+/* Color for the NavBAr Text */
+#pink{
+    color: pink;
+}
+#blue {
+    color: blue;
+}
+#red {
+    color: red;
 }
