@@ -1,7 +1,7 @@
 
 body {
     font-family: Helvetica, sans-serif;
-    color: rgb(148, 145, 145);
+    color: rgb(75, 75, 75);
 }
 /* Some responsive for laptop view 1040px and plus */
 @media only screen and (min-width: 1040px){
@@ -67,7 +67,7 @@ h1 {
    
 }
 .grey_color {
-    color: grey;
+    color:rgb(75, 75, 75);
 }
 .grey_color a {
     text-decoration: none;
@@ -81,7 +81,7 @@ h1 {
 }
 
 #share_silver {
-    color: rgb(148, 145, 145);
+    color: rgb(75, 75, 75);
 }
 /* Icon Size */
 .fa-size {
@@ -129,14 +129,14 @@ a {
     margin-top: -1px;
     margin-left: 10px;
     text-align: left;
-    color: rgb(148, 145, 145);
+    color: rgb(75, 75, 75));
 }
 .section_break {
     border-bottom: solid 1px grey;
 }
 p {
     font-size: 18px;
-    color: rgb(148, 145, 145);
+    color: rgb(75, 75, 75);
 }
 h2 {
     border-top: solid 2px black;
@@ -146,4 +146,23 @@ h2 {
     padding-top: 10px;
     padding-bottom: 0px;
     color: black;
+}
+ul {
+    color: purple;
+}
+.on_hover:hover {
+    color: #e5127d;
+}
+.ball {
+    height: 3px;
+    width: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgb(66, 66, 202);
+    background-color: #ccc;
+    border-radius: 30%;
+}
+/* Size for View whos online section */
+#com_size {
+    font-size: 14px;
 }
