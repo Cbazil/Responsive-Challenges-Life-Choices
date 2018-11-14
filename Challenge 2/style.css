@@ -129,7 +129,7 @@ a {
     margin-top: -1px;
     margin-left: 10px;
     text-align: left;
-    color: rgb(75, 75, 75));
+    color: rgb(75, 75, 75);
 }
 .section_break {
     border-bottom: solid 1px grey;
@@ -165,4 +165,8 @@ ul {
 /* Size for View whos online section */
 #com_size {
     font-size: 14px;
+}
+a:hover 
+li:hover {
+    color: #990851;
 }
