@@ -1,12 +1,16 @@
 
 body {
     font-family: Helvetica, sans-serif;
-   
+    color: rgb(148, 145, 145);
 }
 /* Some responsive for laptop view 1040px and plus */
 @media only screen and (min-width: 1040px){
     body{
         margin: auto 200px;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 69% 29%; 
     }
 }
  
@@ -17,6 +21,7 @@ main {
 h1 {
     font-family: "adelle-sans",Helvetica,sans-serif;
     font-size: 44px;
+    color: black;
 }
 /* To perfectly attach the nav bar sections  */
 #navbar_prop {
@@ -31,18 +36,18 @@ h1 {
 
 /* Border of NavBar Property */
 .tect_navL {
-    border-top: pink solid 2px;
-    border-right:  pink solid 2px;
+    border-top: pink solid 1.5px;
+    border-right:  pink solid 1.5px;
 }
 .facebook_navL {
-    border-top: blue solid 2px;
-    border-right:  blue solid 2px;
+    border-top: blue solid 1.5px;
+    border-right:  blue solid 1.5px;
 
     /* transform: skew(15deg, 15deg); */
 }
 .cybersecurity_navL {
-    border-top: red solid 2px;
-    border-right:  red solid 2px;
+    border-top: red solid 1.5px;
+    border-right:  red solid 1.5px;
 }
 /* Caps Property */
 .uppercase {
@@ -86,6 +91,10 @@ h1 {
 .pink {
     color: #e5127d;
 }
+.pink2 {
+    color: #e5127d;
+    text-decoration: underline;
+}
 a {
     text-decoration: none;
 }
@@ -102,4 +111,39 @@ a {
 }
 #red {
     color: red;
+}
+/* Facebook image postioning */
+.fb_img {
+    width: 100%;
+    margin-top: 20px;
+    }
+
+@media (max-width: 340px){
+    .fb_img {
+    width: 100%;
+    margin-top: 20px;
+    }
+}
+#cap_align {
+    font-size: 13px;
+    margin-top: -1px;
+    margin-left: 10px;
+    text-align: left;
+    color: rgb(148, 145, 145);
+}
+.section_break {
+    border-bottom: solid 1px grey;
+}
+p {
+    font-size: 18px;
+    color: rgb(148, 145, 145);
+}
+h2 {
+    border-top: solid 2px black;
+    border-right: solid 2px black;
+    width: 320px;
+    height: 26px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    color: black;
 }
