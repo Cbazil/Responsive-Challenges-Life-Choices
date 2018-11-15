@@ -141,7 +141,7 @@ p {
 h2 {
     border-top: solid 2px black;
     border-right: solid 2px black;
-    width: 320px;
+    width: 300px;
     height: 26px;
     padding-top: 10px;
     padding-bottom: 0px;
@@ -181,12 +181,13 @@ li:hover {
 @media (max-width: 340){
     .embeded_vid_responsive {
         width: 100%;
+        height: 416px;
     }
 }
 
 .embeded_vid_responsive {
         width: 100%;
-        height: 416px;
+        height: auto;
 }
 h3 {
     text-align: center;
@@ -200,10 +201,10 @@ h3 {
     padding-right: 10px;  
     margin-left: 20px;
 }
-/* #aside {
- 
-} */
-#aside  img {
+#aside {
+    margin-top: 600px;
+}
+#aside img {
     margin: 10px;
     width: 100%;
     position: inherit;
@@ -215,6 +216,12 @@ h3 {
     margin-top: -4px;
         
 }
+.p3 {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 20px;
+        
+}
 #aside_container2{
     border: solid rgb(4, 4, 148)  2px;
     text-align: center;
@@ -223,4 +230,35 @@ h3 {
 h4 {
     font-size: 20px;
     color: rgb(4, 4, 148) ;
+}
+.form_styling {
+    border-left: #e5127d solid 2px;
+    border-top: #e5127d solid 2px;
+    border-bottom: #e5127d solid 2px;
+    height: 38px;
+    width: 69%;   
+
+}
+.form_postioning {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+.button_styling {
+    height: 44px;
+    background-color: #e5127d;
+    color: white;
+    border: #e5127d;
+    width: 29%;
+    /* Attaches the email input and butto */
+    margin-left: -2px;
+}
+.button_styling:hover {
+    background-color: #9e0752;
+    border: #9e0752;
+}
+@media (max-width: 1040px){
+    #aside {
+        display: none;s
+    }
 }
