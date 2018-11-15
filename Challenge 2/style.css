@@ -178,5 +178,13 @@ li:hover {
 .embeded_Vid {
     margin-top: 20px;
 }
+@media (max-width: 340){
+    .embeded_vid_responsive {
+        width: 100%;
+    }
+}
 
-
+.embeded_vid_responsive {
+        width: 100%;
+        height: 416px;
+}
