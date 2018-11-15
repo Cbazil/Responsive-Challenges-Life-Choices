@@ -191,11 +191,14 @@ li:hover {
 h3 {
     text-align: center;
     font-size: 25px;
+    margin-bottom: 5px;
+    font-family: quicksand;
 }
 #aside_container1 {
-    border-top: blue solid 2px;
-    border-right: blue solid 2px; 
-    padding-right: 20px;  
+    border-top: rgb(4, 4, 148) solid 2px;
+    border-right: rgb(4, 4, 148)   solid 2px; 
+    padding-right: 10px;  
+    margin-left: 20px;
 }
 /* #aside {
  
@@ -211,4 +214,13 @@ h3 {
     font-size: 15px;
     margin-top: -4px;
         
+}
+#aside_container2{
+    border: solid rgb(4, 4, 148)  2px;
+    text-align: center;
+    margin-left: 10px;
+}
+h4 {
+    font-size: 20px;
+    color: rgb(4, 4, 148) ;
 }
