@@ -169,4 +169,14 @@ ul {
 a:hover 
 li:hover {
     color: #990851;
+} 
+/* line spacing of the paragraphs */
+.line_spacing {
+    line-height: 2em;
 }
+/* Embed video positioning */
+.embeded_Vid {
+    margin-top: 20px;
+}
+
+
