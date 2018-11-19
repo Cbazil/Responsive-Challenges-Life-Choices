@@ -1,0 +1,27 @@
+nav {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(236, 232, 232);
+}
+img {
+    width: 100%;
+}
+.center_align{
+    /* text-align: center; */
+    width: 200px;
+    height: auto;
+}
+ul {
+    float: right;
+    margin-right: 20px;
+    position: inherit;
+}
+li {
+    background-color: rgb(216, 71, 71);
+    padding: 5px;
+    border-radius: 2px;
+    list-style: none;
+    height: 20px;
+    margin-top: -5px;
+}
